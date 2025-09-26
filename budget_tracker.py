@@ -20,3 +20,14 @@ print("--- Budget Summary ---")
 print("Total Monthly Budget:", total_monthly_budget)
 print("Total Expenses: {:.2f}".format(total_expenses))
 print("Remaining Budget: {:.2f}". format(remaining_budget))
+
+""" 
+Q1: I found that using the .2f formatter helped Python know to only take 2 decimal places.
+Initially I was confused about how to call it but after reading more about it, I was 
+able to implement it correctly.
+Q2: Using input() on its own will create a string but if you add int or float to it, then it knows that 
+it is going to give you a number instead of a string. This is what I used for this project. 
+Q3: It's important that the users input goes into an input function because you want to be able to 
+reuse the value without retyping it. This way it is easer to read and call back to. Placing the input into 
+variables also allows for easier understand of what number belongs to which variable. 
+"""
